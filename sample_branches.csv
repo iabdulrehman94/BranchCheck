@@ -1,0 +1,8 @@
+branch,device,host,port
+Branch 001 - Riyadh North,Router,10.1.1.1,
+Branch 001 - Riyadh North,Core switch,10.1.1.2,
+Branch 001 - Riyadh North,Printer,10.1.1.50,9100
+Branch 001 - Riyadh North,Local server (RDP),10.1.1.10,3389
+Branch 002 - Jeddah,Router,10.2.1.1,
+Branch 002 - Jeddah,Core switch,10.2.1.2,
+Branch 002 - Jeddah,Local server (RDP),10.2.1.10,3389

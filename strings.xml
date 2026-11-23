@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Branch Check</string>
+
+    <!-- Main screen -->
+    <string name="search_hint">Search branches</string>
+    <string name="check_all">Check all</string>
+    <string name="stop">Stop</string>
+    <string name="empty_hint">No branches yet.\n\nOpen the menu (top right) and choose \"Import CSV\" to load your branches and devices, or \"Add branch\" to start by hand.</string>
+    <string name="main_summary">%1$d branches · %2$d checked · %3$d with offline devices</string>
+    <string name="checking_progress">Checking… %1$d of %2$d</string>
+    <string name="nothing_to_check">There are no devices to check yet.</string>
+    <string name="n_devices">%1$d devices</string>
+    <string name="no_devices">No devices</string>
+    <string name="not_checked">Not checked</string>
+    <string name="all_online">All online</string>
+    <string name="n_offline">%1$d offline</string>
+    <string name="n_of_m_online">%1$d of %2$d online</string>
+
+    <!-- Menu -->
+    <string name="import_csv">Import CSV</string>
+    <string name="add_branch">Add branch</string>
+    <string name="share_report">Share report</string>
+
+    <!-- Dialogs -->
+    <string name="branch_name">Branch name</string>
+    <string name="branch_exists">A branch with that name already exists.</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="delete_branch_q">Delete this branch and all its devices?</string>
+    <string name="delete_device_q">Delete this device?</string>
+    <string name="import_done">Imported %1$d new branches and %2$d devices (%3$d rows skipped).</string>
+    <string name="import_failed">Import failed: %1$s</string>
+
+    <!-- Branch screen -->
+    <string name="check_again">Check again</string>
+    <string name="add_device">Add device</string>
+    <string name="device_name">Device name (e.g. Router)</string>
+    <string name="device_host">IP address or host name</string>
+    <string name="device_port">TCP port (leave empty to use ping)</string>
+    <string name="checking">Checking…</string>
+    <string name="checking_short">Checking…</string>
+    <string name="no_devices_hint">No devices yet. Tap \"Add device\".</string>
+    <string name="branch_summary">%1$d of %2$d online · %3$d offline</string>
+    <string name="ping_target">Ping · %1$s</string>
+    <string name="tcp_target">TCP · %1$s:%2$d</string>
+    <string name="online">Online</string>
+    <string name="online_ms">Online · %1$d ms</string>
+    <string name="offline">Offline</string>
+</resources>
